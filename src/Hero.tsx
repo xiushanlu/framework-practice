@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import './App.css'
+import './Hero.css'
 
-function App() {
+function Hero() {
   let [clickTimes, setClickTimes] = useState(0);
 
   let updateClickTimes = () => {
@@ -9,7 +9,7 @@ function App() {
   }
 
   return (
-    <div className="w-screen bg-amber-50 h-screen flex flex-col p-10 gap-3">
+    <div className="w-screen bg-amber-50 flex flex-col px-10 py-20 gap-3">
       <h1>Hi!</h1>
       <p>This button was clicked {clickTimes} times since reload.</p>
       <button onClick = {updateClickTimes}>Learn more</button>
@@ -17,4 +17,4 @@ function App() {
   )
 }
 
-export default App
+export default Hero
