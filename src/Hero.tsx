@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './Hero.css'
+import './styles.css';
 
 function Hero() {
   let [clickTimes, setClickTimes] = useState(0);

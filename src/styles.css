@@ -5,6 +5,14 @@
         @apply font-extrabold text-6xl;
     }
 
+    h2 {
+        @apply font-bold text-3xl;
+    }
+
+    h3 {
+        @apply font-bold text-xl;
+    }
+
     button {
         @apply bg-amber-950 text-amber-50 p-3 max-w-50 rounded-xl shadow-2xl hover:bg-amber-900;
     }
